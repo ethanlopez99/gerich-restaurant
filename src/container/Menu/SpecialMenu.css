@@ -1,0 +1,58 @@
+.app__specialmenu {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.app__specialmenu-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__specialmenu-header p {
+  color: var(--color-white);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+}
+
+.app__specialmenu-header h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 2.56px;
+  text-transform: capitalize;
+}
+
+.app__specialmenu-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__specialmenu-content img {
+  width: 444px;
+  height: 659px;
+  margin: 4rem 2rem;
+}
+
+.app__specialmenu-content_winebeer,
+.app__specialmenu-content_cocktails {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 2rem;
+}
+
+.app__specialmenu-content_winebeer h1,
+.app__specialmenu-content_cocktails h1 {
+  font-size: 45px;
+}
