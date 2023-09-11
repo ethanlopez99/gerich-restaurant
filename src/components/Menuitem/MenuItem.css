@@ -1,54 +1,35 @@
 .app__menuitem {
   width: 100%;
+  margin: 1rem 0;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 1rem 0;
 }
 
-.app__menuitem-top {
-  width: 100%;
+.app__menuitem-head {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.app__menuitem-top_name {
-  color: var(--color-golden);
-  flex: 1;
-  font-family: var(--font-base);
-  font-size: 23px;
-  font-weight: 700;
-  letter-spacing: 0.92px;
-  text-transform: capitalize;
-}
-.app__menuitem-top_bar {
-  height: 1px;
-  width: 119px;
-  margin: 0 2rem;
-  background: var(--color-golden);
-  display: flex;
-  justify-content: flex-start;
-}
-
-.app__menuitem-top_price {
-  color: var(--color-white);
-
-  font-family: var(--font-base);
-  font-size: 23px;
-  font-weight: 700;
-  letter-spacing: 0.92px;
-  display: flex;
-  justify-content: flex-end;
-}
-.app__menuitem-bottom {
-  color: var(--color-grey);
+.app__menuitem-sub {
   width: 100%;
   margin-top: 0.2rem;
-  font-family: var(--font-alt);
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.64px;
+}
+
+.app__menuitem-name {
+  flex: 1;
+}
+
+.app__menuitem-dash {
+  width: 90px;
+  height: 1px;
+  background: var(--color-golden);
+  margin: 0 1rem;
+}
+
+.app__menuitem-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
